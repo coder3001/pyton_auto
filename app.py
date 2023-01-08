@@ -5,4 +5,3 @@ for x in range(1, 10):
         counter = counter + 1
  print(f"кількість принту чисел без остатку {counter}")
 print(counter)
-Print()
