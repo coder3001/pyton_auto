@@ -1,1 +1,0 @@
-# pyton_auto
