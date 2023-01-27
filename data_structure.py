@@ -31,3 +31,17 @@ print(letters[::2])
 numbers = list(range(20))
 print(numbers[::2])
 print(numbers[::-1])
+
+
+"LIST_UNPACKING"
+
+
+numbers = [1, 2, 3, 4, 5, 13, 18]
+first, *other, last = numbers
+
+# first = numbers[0]
+# second = numbers[1]
+# third = numbers[2]
+
+print(first, last)
+print(other)
