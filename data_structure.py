@@ -67,3 +67,11 @@ letters.remove("d")
 del letters[1:3]
 letters.clear()
 print(letters)
+
+
+"FINDING ITEMS"
+
+letters = ["a", "b", "c"]
+print(letters.count('a'))
+if "a" in letters:
+    print(letters.index("a"))
